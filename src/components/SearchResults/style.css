@@ -1,0 +1,11 @@
+.btn-primary {
+    position: absolute;
+    top: 5px;
+    right: 70px;
+}
+
+.btn-success {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
