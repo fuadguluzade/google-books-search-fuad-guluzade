@@ -1,0 +1,11 @@
+.btn-primary {
+    position: absolute;
+    top: 5px;
+    right: 85px;
+}
+
+.btn-danger {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}

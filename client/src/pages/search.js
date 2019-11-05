@@ -17,7 +17,6 @@ class Search extends Component {
         event.preventDefault();
         API.getFromGoogle(this.state.book)
             .then(res => {
-                console.log(res.data.items);
                 this.setState({ bookData: res.data.items });
             })
             .catch(e => console.log(e));
@@ -30,7 +29,9 @@ class Search extends Component {
             description,
             image,
             link
-        }).catch(e => console.log(e));
+        })
+        .then(alert('Book was saved'))
+        .catch(e => console.log(e));
     }
 
     render() {
