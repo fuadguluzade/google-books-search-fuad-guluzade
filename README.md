@@ -30,3 +30,9 @@ Your app should now be running on <http://localhost:3000>. The Express server sh
 
 You can view the project as heroku site also: https://thawing-falls-71342.herokuapp.com/
 
+## Built With
+
+-Express
+-React
+-Mongo
+-Node
