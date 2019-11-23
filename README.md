@@ -32,7 +32,7 @@ You can view the project as heroku site also: https://thawing-falls-71342.heroku
 
 ## Built With
 
--Express
--React
--Mongo
--Node
+- Express
+- React
+- Mongo
+- Node
